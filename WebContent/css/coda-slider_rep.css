@@ -1,0 +1,257 @@
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#tooplate_wrapper {
+	width: 954px;
+	height: 753px;
+	margin: 90px auto 20px;
+	background: url(../images/tooplate_content_bg.jpg) top left no-repeat;
+}
+
+#tooplate_sidebar {
+	float: right;	
+	width: 296px;
+	padding: 180px 0 0;
+}
+
+#header {
+	height:60px;
+	width: 224px;
+	padding: 0 36px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#header h1 { 
+	margin: 0; 
+	padding: 0; 
+	height: 60px; 
+	display: block; 
+	text-indent: - 10000px; 
+}
+
+#menu {
+	width: 236px;
+	padding-left: 60px;
+}
+
+#content {
+	float: right;
+	width: 540px;
+	height: 400px;	
+	padding: 34px 100px 40px 7;
+}
+
+.content_section {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 2px dashed #ccc
+}
+
+.last_section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#footer {
+	clear: both;
+	width: 900px;
+	padding: 0 27px;
+	margin: 0 auto;
+}
+
+#footer_left { 
+	float: right;
+	width: 300px;
+	text-align: right
+}
+
+#footer a {
+	color: #bbb;
+}
+
+#social_box {
+	float: left;
+	height: 85px;
+	padding: 0;
+	text-align: right;
+}
+
+#social_box a {
+	display: inline-block;
+	margin-left: 20px;
+	width: 60px; height: 60px;
+}
+
+.scroll {
+    height: 740px;
+    width: 500px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    height: 740px;
+    width: 500px;
+	overflow: hidden;
+}
+
+ul.navigation {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul.navigation li {
+    display: inline;
+    margin: 0;
+	padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	height: 47px;
+	padding: 12px 0 0 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+    text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.menu_01 { background: url(../images/tooplate_menu_01.png) }
+.menu_02 { background: url(../images/tooplate_menu_02.png) }
+.menu_03 { background: url(../images/tooplate_menu_03.png) }
+.menu_04 { background: url(../images/tooplate_menu_04.png) }
+.menu_05 { background: url(../images/tooplate_menu_05.png) }
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #412810;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 400px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: 0
+}
+
+.scrollButtons.right {
+    right: 0
+}
+
+.hide {
+    display: none;
+}
+
+.login-page {
+  width: 490px;
+  padding: 9% 1 0;
+  margin: auto;
+}
+.form {
+  position: center;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 600px;
+  margin: 53 auto 100px;
+  padding: 3px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+  }
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 11 11 45px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 1;
+  background: 	#F08080;
+  width: 45%;
+  border: 0;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #000000;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: right;
+  z-index: 1;
+  max-width: 300px;
+  margin: 34 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
